@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name          = 'Brainscape-Deck-Editor'
-    s.version       = '1.0.0'
+    s.version       = '14.5.8'
     s.summary       = 'Simple Deck/Card Editor Controllers shared by Brainscape and Flashcardlet'
     s.homepage      = 'http://www.brainscape.com'
     s.license       = 'None'
