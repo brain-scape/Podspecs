@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     }
     
     s.source = { 
-        :hg => "ssh://jholliday@bss-backend.brainscape.com//var/hg/iOS/deckeditor", 
+        :hg => "ssh://brainscape@bss-backend.brainscape.com//var/hg/iOS/deckeditor",
         :revision => '37a22ced2271'
     }
     
