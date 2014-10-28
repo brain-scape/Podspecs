@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     }
     
     s.source = { 
-        :hg => "ssh://jholliday@bss-backend.brainscape.com//var/hg/iOS/dmdb", 
+        :hg => "ssh://brainscape@bss-backend.brainscape.com//var/hg/iOS/dmdb", 
         :revision => '8f3b19afab8e'
     }
     
