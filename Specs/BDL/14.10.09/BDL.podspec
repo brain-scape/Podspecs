@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name          = 'BDL'
-    s.version       = '14.9.18'
+    s.version       = '14.10.09'
     s.summary       = 'Brainscape Data Model and Syncing'
     s.homepage      = 'http://www.brainscape.com'
     s.license       = 'None'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     
     s.source = { 
         :hg => "ssh://brainscape@bss-backend.brainscape.com//var/hg/iOS/bdl",
-        :revision => "031ffc2e2a53"
+        :revision => "60e0c48aefcf"
     }
     
     s.source_files = 'Classes/*.{h,m}'

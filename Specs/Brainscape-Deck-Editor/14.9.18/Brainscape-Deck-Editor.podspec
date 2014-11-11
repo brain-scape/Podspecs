@@ -5,15 +5,14 @@ Pod::Spec.new do |s|
     s.homepage      = 'http://www.brainscape.com'
     s.license       = 'None'
     
-    s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '7.0'
     
     s.author = {
         'Jeff Holliday' => 'jholliday@brain-scape.com'
     }
     
     s.source = { 
-        :hg => "ssh://brainscape@bss-backend.brainscape.com//var/hg/iOS/deckeditor",
-        :revision => '8d22853cb0e0'
+        :hg => "ssh://brainscape@bss-backend.brainscape.com//var/hg/iOS/deckeditor", :revision => '8d22853cb0e0'
     }
     
     s.source_files = 'Classes/*.{h,m}'
