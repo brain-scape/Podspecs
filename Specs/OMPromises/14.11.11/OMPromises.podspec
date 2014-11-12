@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { 'Jeff Holliday' => 'jholliday@brain-scape.com' }
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
-  s.source       = { :git => 'https://github.com/jhollida24/OMPromises.git', :tag => '3a9841cb836497000b362835b5feaee52a934c8d' }
+  s.source       = { :git => 'https://github.com/jhollida24/OMPromises.git', :tag => '14.11.11' }
   s.requires_arc = true
 
   s.default_subspec = 'Core'
