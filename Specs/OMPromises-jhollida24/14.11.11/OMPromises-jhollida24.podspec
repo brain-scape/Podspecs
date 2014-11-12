@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'OMPromises'
+  s.name         = 'OMPromises-jhollida24'
   s.version      = '14.11.11'
   s.summary      = 'Promises for iOS & Mac OS X'
   s.homepage     = 'http://github.com/jhollida24/OMPromises'
@@ -21,15 +21,15 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'HTTP' do |hs|
-    hs.dependency 'OMPromises/Core'
+    hs.dependency 'OMPromises-jhollida24/Core'
     hs.source_files = 'Classes/OMHTTP.h', 'Classes/HTTP'
     hs.public_header_files = 'Classes/OMHTTP.h', 'Classes/HTTP/*.h'
     hs.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'OMPROMISES_HTTP_AVAILABLE=1' }
   end
 
   s.subspec 'Tests' do |ts|
-    ts.dependency 'OMPromises/Core'
-    ts.dependency 'OMPromises/HTTP'
+    ts.dependency 'OMPromises-jhollida24/Core'
+    ts.dependency 'OMPromises-jhollida24/HTTP'
     ts.framework = 'XCTest'
     ts.source_files = 'Tests/*.{h,m}', 'Tests/{Core,HTTP}/*.{h,m}'
     ts.prefix_header_contents = <<-EOS
