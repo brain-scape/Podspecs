@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     s.resources = ['Resources/images/*.png', 'Resources/xibs/*.xib']
     s.requires_arc = true
 
-    s.dependency 'Facebook-iOS-SDK', '~> 3.6'
+    s.dependency 'Facebook-iOS-SDK'
     s.dependency 'UIAlertView-Blocks'
     s.dependency 'OMPromises'
     s.dependency 'BDL/Core'
