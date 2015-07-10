@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
     s.name          = 'BDL'
-    s.version       = '15.7.6'
+    s.version       = '15.7.10'
     s.summary       = 'Brainscape Data Model and Syncing'
     s.homepage      = 'http://www.brainscape.com'
     s.license       = 'None'
     
-    s.ios.deployment_target = '7.0'
+    s.ios.deployment_target = '8.0'
     
     s.author = {
         'Jeff Holliday' => 'jholliday@brain-scape.com'
