@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name          = 'BDL'
-    s.version       = '15.7.6'
+    s.version       = '15.08.03'
     s.summary       = 'Brainscape Data Model and Syncing'
     s.homepage      = 'http://www.brainscape.com'
     s.license       = 'None'
