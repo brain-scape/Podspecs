@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     }
     
     s.source = { 
-        :hg => "ssh://hg@bitbucket.org/brainscape/ios-deckeditor", :revision => 'c55046b585d7'
+        :hg => "ssh://hg@bitbucket.org/brainscape/ios-deckeditor", :revision => '3b8e64ee01a0'
     }
     
     s.source_files = 'Classes/*.{h,m}'
