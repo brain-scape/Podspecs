@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
     s.requires_arc = true
 
     s.dependency 'UIAlertView-Blocks'
-    s.dependency 'ReactiveCocoa', "~> 2.4.7"
+    s.dependency 'ReactiveCocoa', "~> 2.5"
 
 end
