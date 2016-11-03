@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'OMPromises'
-  s.version      = '14.11.11'
+  s.version      = '16.12.3'
   s.summary      = 'Promises for iOS & Mac OS X'
   s.homepage     = 'http://github.com/jhollida24/OMPromises'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Jeff Holliday' => 'jholliday@brain-scape.com' }
   s.ios.deployment_target = '5.0'
   s.osx.deployment_target = '10.7'
-  s.source       = { :git => 'https://github.com/jhollida24/OMPromises.git', :tag => '14.11.11' }
+  s.source       = { :git => 'https://github.com/brain-scape/OMPromises.git', :tag => '16.12.3' }
   s.requires_arc = true
 
   s.default_subspec = 'Core'
