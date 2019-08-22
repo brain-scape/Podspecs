@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
     s.license  = 'None'
     s.author   = {'Brainscape': 'info@brainscape.com'}
     s.source   = {
-        git:    'git@gitlab.com:brainscape/ios-dmdb.git',
+        git:    'git@gitlab.com:brainscape/ios-deckeditor.git',
         commit: '60a53229732f8b3b86edfc99fbb48b9d6423ebcd',
     }
     
