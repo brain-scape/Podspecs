@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
     s.license  = 'None'
     s.author   = {'Brainscape': 'info@brainscape.com'}
     s.source   = {
-        git:      'git@gitlab.com:brainscape/ios-dmdb.git',
-        revision: '905247e9a349fe0dd67c84ad6a4b7760491580a9',
+        git:    'git@gitlab.com:brainscape/ios-dmdb.git',
+        commit: '905247e9a349fe0dd67c84ad6a4b7760491580a9',
     }
 
     s.source_files = 'Classes/*.{h,m}'

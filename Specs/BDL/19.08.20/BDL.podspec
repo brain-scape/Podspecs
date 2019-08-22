@@ -6,8 +6,8 @@ Pod::Spec.new do |s|
   s.license  = 'None'
   s.author   = {'Brainscape': 'info@brainscape.com'}
   s.source   = {
-    git:      'git@gitlab.com:brainscape/ios-bdl.git',
-    revision: '07adf91b2ba9bbaca0d25d74e2bb8cb2a979490c',
+    git:    'git@gitlab.com:brainscape/ios-bdl.git',
+    commit: '07adf91b2ba9bbaca0d25d74e2bb8cb2a979490c',
   }
 
   s.ios.deployment_target = '9.3'
