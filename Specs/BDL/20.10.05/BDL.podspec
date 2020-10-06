@@ -30,6 +30,5 @@ Pod::Spec.new do |s|
 
     s.subspec 'Core' do |a|
       a.source_files = 'Classes/Core/*.{h,m}'
-      a.dependency 'ASIHTTPRequest'
     end
   end
